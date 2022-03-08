@@ -2,7 +2,7 @@ namespace DevJobs.API.Entities
 {
     public class JobVacancy
     {
-        public JobVacancy(string title, string description, string company, bool isRemote, bool salaryRange)
+        public JobVacancy(string title, string description, string company, bool isRemote, string salaryRange)
         {
             Title = title;
             Description = description;
@@ -20,7 +20,7 @@ namespace DevJobs.API.Entities
         public string Description { get; private set; }
         public string Company { get; private set; }
         public bool IsRemote { get; private set; }
-        public bool SalaryRange { get; private set; }
+        public string SalaryRange { get; private set; }
         public DateTime CreatedAt { get; private set; }
         public List<JobApplication> Applications { get; private set; }
 
