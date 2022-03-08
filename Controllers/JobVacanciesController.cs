@@ -1,6 +1,6 @@
 namespace DevJobs.API.Controllers
 {
-
+    using DevJobs.API.Models;
     using Microsoft.AspNetCore.Mvc;
 
     [Route("api/job-vacancies")]
@@ -25,7 +25,7 @@ namespace DevJobs.API.Controllers
 
         // POST api/job-vacancies
         [HttpPost]
-        public ActionResult Post(int Id)
+        public ActionResult Post(AddJobVacancyInputModel model)
         {
 
             return Ok();
@@ -33,7 +33,7 @@ namespace DevJobs.API.Controllers
 
         // PUT api/job-vacancies/4
         [HttpPut("{id}")]
-        public ActionResult Put(int Id)
+        public ActionResult Put(UpdateJobVacancyInputModel model)
         {
 
             return NoContent();
