@@ -12,7 +12,7 @@ namespace DevJobs.API.Controllers
         public IActionResult Post(int id, AddJobApplicationInputModel model)
         {
             
-            return Ok();
+            return NoContent();
         }
     }
 }
