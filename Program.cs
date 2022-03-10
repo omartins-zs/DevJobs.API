@@ -3,6 +3,8 @@ using DevJobs.API.Persistence;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+var connectionString = builder.Configuration.GetConnectionString("DevJobsCs");
 builder.Services.AddSingleton<DevJobsContext>();
 
 builder.Services.AddControllers();
