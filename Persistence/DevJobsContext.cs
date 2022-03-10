@@ -1,14 +1,14 @@
 using DevJobs.API.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace DevJobs.API.Persistence
 {
-    public class DevJobsContext
+    public class DevJobsContext : DbContext
     {
-        public DevJobsContext()
+        public DevJobsContext(DbContextOptions<DevJobsContext> options): base(options)
         {
-            JobVacancies = new List<JobVacancy>();
         }
 
-        public List<JobVacancy> JobVacancies { get; set; }
+        public DbSet<JobVacancy> JobVacancies { get; set; }
     }
 }
