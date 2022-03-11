@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DevJobs.API.Persistence.Migrations
 {
     [DbContext(typeof(DevJobsContext))]
-    [Migration("20220311135802_InitialMigration")]
+    [Migration("20220311174538_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
