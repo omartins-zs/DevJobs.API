@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\gabri\\OneDrive\\Área de Trabalho\\JornadaDotNet4\\DevJobs.API\\DevJobs.API.csproj": {}
+    "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\JornadaDotNet4\\DevJobs.API\\DevJobs.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\gabri\\OneDrive\\Área de Trabalho\\JornadaDotNet4\\DevJobs.API\\DevJobs.API.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\JornadaDotNet4\\DevJobs.API\\DevJobs.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\gabri\\OneDrive\\Área de Trabalho\\JornadaDotNet4\\DevJobs.API\\DevJobs.API.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\JornadaDotNet4\\DevJobs.API\\DevJobs.API.csproj",
         "projectName": "DevJobs.API",
-        "projectPath": "c:\\Users\\gabri\\OneDrive\\Área de Trabalho\\JornadaDotNet4\\DevJobs.API\\DevJobs.API.csproj",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\JornadaDotNet4\\DevJobs.API\\DevJobs.API.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\gabri\\OneDrive\\Área de Trabalho\\JornadaDotNet4\\DevJobs.API\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\JornadaDotNet4\\DevJobs.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,6 +25,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.3, )"
@@ -56,6 +61,18 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.7.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
