@@ -43,7 +43,7 @@ builder.Services.AddSwaggerGen(c =>
 
     c.IncludeXmlComments(xmlPath);
 });
-
+// Comentar o Log para Publicação no Azure e comentar DbContext UseSqlServer e usar InMemory
 builder.Host.ConfigureAppConfiguration((hostingContext, config) => {
     Serilog.Log.Logger = new LoggerConfiguration()
         .Enrich.FromLogContext()
