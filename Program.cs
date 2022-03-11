@@ -42,6 +42,19 @@ builder.Services.AddSwaggerGen(c =>
     c.IncludeXmlComments(xmlPath);
 });
 
+builder.Host.ConfigureAppConfiguration((hostingContext, config) => {
+    Serilog.Log.Logger = new LoggerConfiguration()
+        .Enrich.FromLogContext()
+        .WriteTo.MSSqlServer(connectionString,
+            sinkOptions: new MSSqlServerSinkOptions()
+            {
+                AutoCreateSqlTable = true,
+                TableName = "Logs"
+            })
+        .WriteTo.Console()
+        .CreateLogger();
+}).UseSerilog();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
