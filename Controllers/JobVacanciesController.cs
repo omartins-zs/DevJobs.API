@@ -51,7 +51,7 @@ namespace DevJobs.API.Controllers
         /// "isRemote": true,
         /// "salaryRange": "3000-4000"
         /// }
-        /// </remarks
+        /// </remarks>
         /// <param name="model">Dados da vaga</param>
         /// <returns>Objeto recém-criado</returns>
         /// <response code="201">Sucesso</response>
