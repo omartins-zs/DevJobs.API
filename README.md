@@ -4,3 +4,9 @@ Foi desenvolvida uma API REST em .NET completa do zero,
 com diversos endpoints
 
 
+ <div align="center">
+
+   <cite align="center">`Aplicação responsável por gerenciar vagas de
+emprego de programadores e aplicação de vagas`</cite>
+
+</div>
