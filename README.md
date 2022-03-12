@@ -38,3 +38,19 @@ emprego de programadores e aplicação de vagas`</cite>
 
 - Cadastro, Listagem, Detalhes, Atualização de Vaga de Emprego
 - Aplicação a Vaga de Emprego
+
+<hr>
+
+
+## 📝 Pacotes do Nuget 
+
+<i>
+
+* Microsoft.EntityFrameworkCore -> Para utilizar Entity Framework
+* Microsoft.EntityFrameworkCore.Design -> Componentes de tempo de design compartilhado
+* Microsoft.EntityFrameworkCore.InMemory -> Para utilizar SQL e Salvar dados em memoria
+* Microsoft.EntityFrameworkCore.SqlServer -> Para utilizar Migrations SQL e Salvar dados no BD
+* Swashbuckle.AspNetCore -> Para utilizar o Swagger
+* Serilog.Sinks.MSSqlServer -> Para utilizar o Logs com BD SQL
+* Serilog.AspNetCore -> Para utilizar o Logs no ASP NET
+* EntityFramework -> (ORM)
