@@ -15,3 +15,9 @@ emprego de programadores e aplicação de vagas`</cite>
    ✅ Dev Jobs 🔎👨‍💻🌆 Concluido ✅ 
    
  </h4>
+
+## 🔥 **Pré requisitos**
+
+- [SDK do .NET 6](https://dotnet.microsoft.com/download)
+- [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/)
+- [Visual Studio Code](https://code.visualstudio.com/)
