@@ -10,3 +10,8 @@ com diversos endpoints
 emprego de programadores e aplicação de vagas`</cite>
 
 </div>
+
+<h4 align="center"> 
+   ✅ Dev Jobs 🔎👨‍💻🌆 Concluido ✅ 
+   
+ </h4>
