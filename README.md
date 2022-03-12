@@ -33,3 +33,8 @@ emprego de programadores e aplicação de vagas`</cite>
 - Padrão Repository
 - Clean Code, Logs com Serilog
 - Publicação na nuvem Microsoft Azure com Azure App Service
+
+## 🔨🔮 Funcionalidades
+
+- Cadastro, Listagem, Detalhes, Atualização de Vaga de Emprego
+- Aplicação a Vaga de Emprego
