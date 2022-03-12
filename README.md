@@ -21,3 +21,15 @@ emprego de programadores e aplicação de vagas`</cite>
 - [SDK do .NET 6](https://dotnet.microsoft.com/download)
 - [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+
+
+## 🚀✔️ Tecnologias e práticas utilizadas
+- ASP.NET Core com .NET 6
+- Entity Framework Core
+- SQL Server
+- Documentação de APls com Swagger
+- Injeção de Dependência
+- Programação Orientada a Objetos
+- Padrão Repository
+- Clean Code, Logs com Serilog
+- Publicação na nuvem Microsoft Azure com Azure App Service
