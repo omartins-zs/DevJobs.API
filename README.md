@@ -70,3 +70,17 @@ emprego de programadores e aplicação de vagas`</cite>
 Voce pode baixar todas as extensões no [`MarketPlace Visual Studio Code`](https://marketplace.visualstudio.com/vscode)
  
 </i>
+
+
+## Melhorias a fazer:
+
+<details>
+  <summary>Fazer documentaçao XML </summary>
+ 
+- [ ] PUT
+
+- [ ] GET
+
+- [ ] GETALL
+
+</details>
