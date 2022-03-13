@@ -21,6 +21,7 @@ emprego de programadores e aplicação de vagas`</cite>
    
  </h4>
 
+
 ## 🔥 **Pré requisitos**
 
 - [SDK do .NET 6](https://dotnet.microsoft.com/download)
@@ -76,6 +77,37 @@ Voce pode baixar todas as extensões no [`MarketPlace Visual Studio Code`](https
  
 </i>
 
+<br>
+ 
+## Comandos 👨‍💻💻
+```bash
+
+# Para ver uma lista de todos os modelos de projetos
+$ dotnet new --list
+
+# Para cria projeto API Web do ASP.NET Core (-o Para mostrar o diretorio de criação)
+$ dotnet new webapi -o DevJobs.API
+
+# Para instalar Entity Framework no contexto global
+$ dotnet tool install --global dotnet-ef
+
+# Habilitar o armazenamento secreto
+$ dotnet user-secrets init
+
+# Para definir um segredo
+$ dotnet user-secrets set "(ConnectionString:(nomedobanco)" "string de conexao do sql server"
+
+# Adiciona uma nova migração.
+$ dotnet ef migrations add 
+
+# Adiciona uma nova migração | <NAME> | O diretório no qual colocar arquivos
+$ dotnet ef migrations add InitialMigration -o Persistence/Migrations
+
+# Atualiza o banco de dados para a última migração ou para uma migração especificada
+$ dotnet ef database update
+```
+
+ <br>
 
 ## Melhorias a fazer:
 
