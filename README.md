@@ -97,3 +97,13 @@ Voce pode baixar todas as extensões no [`MarketPlace Visual Studio Code`](https
 * Usar atalho `api_controller` -> Para criar a estrutura de controller do arquivo
 * Usar atalho `propg` -> Cria uma propriedade implementada automaticamente do tipo somente leitura, com um set private.
 * Usar atalho `ctor` -> Cria um construtor para a classe que o contém.
+
+
+<hr>
+<br>
+
+<div align="center">
+
+Feito com ❤️ por [Gabriel Martins](https://www.linkedin.com/in/gabriel-martins-0479811b0/) durante a Jornada .NET Direto ao Ponto do Canal [luis_dev](https://www.youtube.com/channel/UCjfymesWHr0Z-3hryRsc-Fw)👋
+ 
+ </div>
