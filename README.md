@@ -42,7 +42,7 @@ emprego de programadores e aplicação de vagas`</cite>
 <hr>
 
 
-## 📝 Pacotes do Nuget 
+## 📝 Pacotes do Nuget e Extensões
 
 <i>
 
@@ -54,3 +54,19 @@ emprego de programadores e aplicação de vagas`</cite>
 * Serilog.Sinks.MSSqlServer -> Para utilizar o Logs com BD SQL
 * Serilog.AspNetCore -> Para utilizar o Logs no ASP NET
 * EntityFramework -> (ORM)
+ 
+ <hr>
+
+
+* C#
+* Bracket Pair Colorizer
+* C# Extensions
+* C# Snippets
+* NuGet Gallery
+* Azure App Service
+* SQL Server (mssql)
+* Vscode-icons
+
+Voce pode baixar todas as extensões no [`MarketPlace Visual Studio Code`](https://marketplace.visualstudio.com/vscode)
+ 
+</i>
