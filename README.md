@@ -84,3 +84,16 @@ Voce pode baixar todas as extensões no [`MarketPlace Visual Studio Code`](https
 - [ ] GETALL
 
 </details>
+
+<br>
+
+## 🖋️ Dicas
+
+* Atalhos [Snippets de código C#](https://docs.microsoft.com/pt-br/visualstudio/ide/visual-csharp-code-snippets?view=vs-2022)
+* Indentar -> ```  ALT + SHIFT + F ```
+* Para fazer Using ->  ``` Ctrl + .  ``` 
+* O Preenchimento de código com `Ctrl+Space`
+* Usar Atalho do IntelliSense  `prop`  -> Para Criar Atributos do Objeto
+* Usar atalho `api_controller` -> Para criar a estrutura de controller do arquivo
+* Usar atalho `propg` -> Cria uma propriedade implementada automaticamente do tipo somente leitura, com um set private.
+* Usar atalho `ctor` -> Cria um construtor para a classe que o contém.
