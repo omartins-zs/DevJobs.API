@@ -65,6 +65,15 @@ emprego de programadores e aplicação de vagas`</cite>
 
 <hr>
 
+ <div align="center">
+
+   <h3 align="center"><i>Documentaçao da Api</em></h3>
+   
+   
+  <!-- <cite align="center">`http://localhost:3000`</cite> -->
+  
+   <img align="center" src="./DocumentacaoDevJobs.png">
+</div>
 
 ## 📝 Pacotes do Nuget e Extensões
 
